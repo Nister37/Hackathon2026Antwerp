@@ -95,7 +95,10 @@ if ($LASTEXITCODE -eq 0) {
     if ($LASTEXITCODE -ne 0) { throw 'Could not create the VM.' }
 }
 
-& $gcloud compute scp --recurse $release "${Instance}:~/" --project=$ProjectId --zone=$Zone --quiet
+& $gcloud compute ssh $Instance --project=$ProjectId --zone=$Zone --command='mkdir -p gcp-release' --quiet
+if ($LASTEXITCODE -ne 0) { throw 'Could not prepare the release directory on the VM.' }
+$releaseContents = @(Get-ChildItem -LiteralPath $release | ForEach-Object FullName)
+& $gcloud compute scp --recurse @releaseContents "${Instance}:gcp-release/" --project=$ProjectId --zone=$Zone --quiet
 if ($LASTEXITCODE -ne 0) { throw 'Could not upload the release to the VM.' }
 & $gcloud compute ssh $Instance --project=$ProjectId --zone=$Zone --command='sudo bash ~/gcp-release/vm-startup.sh && sudo bash ~/gcp-release/vm-deploy.sh ~/gcp-release' --quiet
 if ($LASTEXITCODE -ne 0) { throw 'Remote deployment failed.' }

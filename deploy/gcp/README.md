@@ -1,5 +1,7 @@
 # Google Cloud container demo
 
+Current deployed demo: [http://136.108.132.90/](http://136.108.132.90/)
+
 `deploy.ps1` builds the backend JAR and React app locally, creates one `e2-small`
 Compute Engine VM in `us-east1-d`, and runs PostgreSQL 18, Spring Boot, and Nginx
 with Docker Compose. It also packages the Python ML pipeline as a one-shot Docker

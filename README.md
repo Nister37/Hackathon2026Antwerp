@@ -122,6 +122,12 @@ local development only.
 
 ## Google Cloud demo deployment
 
+Live demo: [http://136.108.132.90/](http://136.108.132.90/)
+
+This URL uses the VM's ephemeral external IP and may change if the VM is stopped
+and restarted. The demo is unauthenticated HTTP with synthetic data; do not enter
+private information.
+
 The [container deployment script](deploy/gcp/README.md) builds the app locally,
 generates the ML artifact on the VM, and runs the frontend, backend, and
 PostgreSQL containers on one small Compute Engine VM. It uses `gcloud` and
