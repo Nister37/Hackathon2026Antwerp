@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "source_sha256": {
+    "tom_transactions.csv": "f13e7f006a5eb362422e3b8c41e695d3632980928636553a184b7e642d3589b6",
+    "maria_transactions.csv": "8b57f7e732e6a0aebf05a9e57e636aa22f3117c6665b521efdf760250fa3114d"
+  },
+  "suggestions": [
+    {
+      "id": "maria-moving_renovation",
+      "customer_id": "MARIA",
+      "event": "moving_renovation",
+      "confidence_percent": 77.5,
+      "confidence_level": "high",
+      "forecast": {
+        "next_90_days_spend": 9830.99,
+        "uncertainty_band_plus_minus": 4250.56,
+        "display": "Next 90 days around EUR 9,830.99"
+      },
+      "money_mirror": {
+        "income_total": 25200.0,
+        "spend_total": 15381.4,
+        "surplus_total": 9818.6,
+        "display": "Income EUR 25,200.00, spend EUR 15,381.40, surplus EUR 9,818.60"
+      },
+      "source": {
+        "model": "weighted_signal_classifier",
+        "files": [
+          "features.csv",
+          "classification_scores.csv",
+          "spend_forecast.csv"
+        ]
+      },
+      "title": "Possible home pattern",
+      "summary": "Your transactions may suggest a move or renovation pattern.",
+      "body": "We noticed home-related spending, housing setup payments, and a strong change in where day-to-day spending happens.",
+      "primary_action_id": "track-renovation-spend",
+      "evidence": [
+        {
+          "label": "Home spending",
+          "value": 2598.19,
+          "display": "Home spend is EUR 2,598.19"
+        },
+        {
+          "label": "Location shift",
+          "value": 0.898,
+          "display": "Spending location changed strongly between the early and recent transaction history"
+        },
+        {
+          "label": "Housing setup",
+          "value": 0.75,
+          "display": "Housing setup signals include notary, moving, or mortgage activity"
+        }
+      ],
+      "actions": [
+        {
+          "id": "track-renovation-spend",
+          "label": "Track renovation spending",
+          "impact": "Group EUR 2,598.19 of home expenses",
+          "kind": "dashboard"
+        },
+        {
+          "id": "review-home-cashflow",
+          "label": "Review home cash flow",
+          "impact": "Next 90 days around EUR 9,830.99",
+          "kind": "money_mirror"
+        }
+      ],
+      "ui_route": "/profile/maria/lifeline/home",
+      "strongest_city_change": {
+        "city": "Antwerp",
+        "early_share": 1.0,
+        "late_share": 0.102,
+        "share_change": -0.898
+      },
+      "recurring_merchants": [
+        {
+          "merchant": "Antwerp Rent",
+          "category": "Housing",
+          "typical_amount": 1150.0
+        },
+        {
+          "merchant": "ENGIE Ghent",
+          "category": "Utilities",
+          "typical_amount": 96.0
+        },
+        {
+          "merchant": "ENGIE Antwerp",
+          "category": "Utilities",
+          "typical_amount": 82.0
+        }
+      ],
+      "merchant_pairs": [
+        {
+          "merchant_a": "Delhaize",
+          "merchant_a_category": "Groceries",
+          "merchant_b": "Proximus",
+          "merchant_b_category": "Utilities",
+          "cooccurrence_count": 74
+        },
+        {
+          "merchant_a": "Colruyt",
+          "merchant_a_category": "Groceries",
+          "merchant_b": "Proximus",
+          "merchant_b_category": "Utilities",
+          "cooccurrence_count": 68
+        },
+        {
+          "merchant_a": "Carrefour",
+          "merchant_a_category": "Groceries",
+          "merchant_b": "Proximus",
+          "merchant_b_category": "Utilities",
+          "cooccurrence_count": 64
+        }
+      ]
+    },
+    {
+      "id": "tom-travel_prep",
+      "customer_id": "TOM",
+      "event": "travel_prep",
+      "confidence_percent": 65.0,
+      "confidence_level": "medium",
+      "forecast": {
+        "next_90_days_spend": 7269.72,
+        "uncertainty_band_plus_minus": 1739.19,
+        "display": "Next 90 days around EUR 7,269.72"
+      },
+      "money_mirror": {
+        "income_total": 18000.0,
+        "spend_total": 12545.83,
+        "surplus_total": 5454.17,
+        "display": "Income EUR 18,000.00, spend EUR 12,545.83, surplus EUR 5,454.17"
+      },
+      "source": {
+        "model": "weighted_signal_classifier",
+        "files": [
+          "features.csv",
+          "classification_scores.csv",
+          "spend_forecast.csv"
+        ]
+      },
+      "title": "Possible travel pattern",
+      "summary": "Your transactions may suggest upcoming travel preparation.",
+      "body": "We noticed travel merchants, foreign exchange activity, and a change in discretionary spending.",
+      "primary_action_id": "set-trip-budget",
+      "evidence": [
+        {
+          "label": "Travel spending",
+          "value": 1869.5,
+          "display": "Travel spend is EUR 1,869.50"
+        },
+        {
+          "label": "Foreign spend",
+          "value": 550.0,
+          "display": "Foreign exchange or foreign spend is EUR 550.00"
+        },
+        {
+          "label": "Foreign transactions",
+          "value": 2,
+          "display": "2 foreign spend transactions detected"
+        }
+      ],
+      "actions": [
+        {
+          "id": "set-trip-budget",
+          "label": "Set trip budget",
+          "impact": "Next 90 days around EUR 7,269.72",
+          "kind": "budget"
+        },
+        {
+          "id": "review-fx-fees",
+          "label": "Review FX fees",
+          "impact": "Check EUR 550.00 of foreign spend",
+          "kind": "fees"
+        }
+      ],
+      "ui_route": "/profile/tom/lifeline/travel",
+      "strongest_city_change": {
+        "city": "Brussels",
+        "early_share": 1.0,
+        "late_share": 0.98,
+        "share_change": -0.02
+      },
+      "recurring_merchants": [
+        {
+          "merchant": "Brussels Rent",
+          "category": "Housing",
+          "typical_amount": 1050.0
+        },
+        {
+          "merchant": "ENGIE Brussels",
+          "category": "Utilities",
+          "typical_amount": 74.0
+        },
+        {
+          "merchant": "Proximus",
+          "category": "Utilities",
+          "typical_amount": 45.0
+        }
+      ],
+      "merchant_pairs": [
+        {
+          "merchant_a": "Colruyt",
+          "merchant_a_category": "Groceries",
+          "merchant_b": "KBC FX EUR-JPY",
+          "merchant_b_category": "Foreign Spend",
+          "cooccurrence_count": 20
+        },
+        {
+          "merchant_a": "ENGIE Brussels",
+          "merchant_a_category": "Utilities",
+          "merchant_b": "KBC FX EUR-JPY",
+          "merchant_b_category": "Foreign Spend",
+          "cooccurrence_count": 20
+        },
+        {
+          "merchant_a": "KBC FX EUR-JPY",
+          "merchant_a_category": "Foreign Spend",
+          "merchant_b": "Lidl",
+          "merchant_b_category": "Groceries",
+          "cooccurrence_count": 20
+        }
+      ]
+    }
+  ]
+}

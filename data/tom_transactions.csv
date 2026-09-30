@@ -1,0 +1,103 @@
+transaction_id,customer_id,date,amount,merchant,category,city,country
+T0007,TOM,2026-03-02,-1050.0,Brussels Rent,Housing,Brussels,BE
+T0025,TOM,2026-03-05,-26.82,Colruyt,Groceries,Brussels,BE
+T0026,TOM,2026-03-06,-53.44,Cinema,Other,Brussels,BE
+T0027,TOM,2026-03-07,-21.26,Lidl,Groceries,Brussels,BE
+T0008,TOM,2026-03-12,-74.0,ENGIE Brussels,Utilities,Brussels,BE
+T0028,TOM,2026-03-12,-66.53,Delhaize,Groceries,Brussels,BE
+T0029,TOM,2026-03-13,-60.64,Cinema,Other,Brussels,BE
+T0030,TOM,2026-03-14,-71.67,Delhaize,Groceries,Brussels,BE
+T0009,TOM,2026-03-15,-45.0,Proximus,Utilities,Brussels,BE
+T0031,TOM,2026-03-16,-41.9,Delhaize,Groceries,Brussels,BE
+T0032,TOM,2026-03-19,-71.28,Lidl,Groceries,Brussels,BE
+T0033,TOM,2026-03-20,-27.9,Spotify,Other,Brussels,BE
+T0034,TOM,2026-03-21,-44.06,Lidl,Groceries,Brussels,BE
+T0035,TOM,2026-03-23,-22.18,Delhaize,Groceries,Brussels,BE
+T0036,TOM,2026-03-26,-25.55,Lidl,Groceries,Brussels,BE
+T0037,TOM,2026-03-27,-75.95,Cinema,Other,Brussels,BE
+T0001,TOM,2026-03-28,3000.0,Employer BV,Income,Brussels,BE
+T0038,TOM,2026-03-28,-42.98,Carrefour,Groceries,Brussels,BE
+T0039,TOM,2026-03-29,-10.59,Takeaway,Other,Brussels,BE
+T0010,TOM,2026-04-02,-1050.0,Brussels Rent,Housing,Brussels,BE
+T0040,TOM,2026-04-02,-71.52,Delhaize,Groceries,Brussels,BE
+T0041,TOM,2026-04-03,-76.73,Cinema,Other,Brussels,BE
+T0042,TOM,2026-04-04,-55.36,Spotify,Other,Brussels,BE
+T0043,TOM,2026-04-06,-46.81,Lidl,Groceries,Brussels,BE
+T0044,TOM,2026-04-09,-23.26,Delhaize,Groceries,Brussels,BE
+T0045,TOM,2026-04-11,-37.01,Delhaize,Groceries,Brussels,BE
+T0046,TOM,2026-04-11,-22.12,Spotify,Other,Brussels,BE
+T0011,TOM,2026-04-12,-74.0,ENGIE Brussels,Utilities,Brussels,BE
+T0012,TOM,2026-04-15,-45.0,Proximus,Utilities,Brussels,BE
+T0047,TOM,2026-04-16,-22.29,Delhaize,Groceries,Brussels,BE
+T0048,TOM,2026-04-20,-42.5,Carrefour,Groceries,Brussels,BE
+T0049,TOM,2026-04-23,-69.24,Lidl,Groceries,Brussels,BE
+T0050,TOM,2026-04-26,-60.02,Cafe Louise,Other,Brussels,BE
+T0051,TOM,2026-04-27,-73.51,Colruyt,Groceries,Brussels,BE
+T0002,TOM,2026-04-28,3000.0,Employer BV,Income,Brussels,BE
+T0013,TOM,2026-05-02,-1050.0,Brussels Rent,Housing,Brussels,BE
+T0052,TOM,2026-05-02,-73.64,Carrefour,Groceries,Brussels,BE
+T0053,TOM,2026-05-04,-62.6,Lidl,Groceries,Brussels,BE
+T0054,TOM,2026-05-07,-33.21,Carrefour,Groceries,Brussels,BE
+T0055,TOM,2026-05-09,-66.94,Delhaize,Groceries,Brussels,BE
+T0056,TOM,2026-05-09,-36.22,Zara,Other,Brussels,BE
+T0014,TOM,2026-05-12,-74.0,ENGIE Brussels,Utilities,Brussels,BE
+T0057,TOM,2026-05-14,-40.71,Carrefour,Groceries,Brussels,BE
+T0015,TOM,2026-05-15,-45.0,Proximus,Utilities,Brussels,BE
+T0058,TOM,2026-05-15,-82.52,Cinema,Other,Brussels,BE
+T0059,TOM,2026-05-16,-56.73,Colruyt,Groceries,Brussels,BE
+T0060,TOM,2026-05-17,-18.65,Cinema,Other,Brussels,BE
+T0061,TOM,2026-05-21,-20.18,Lidl,Groceries,Brussels,BE
+T0062,TOM,2026-05-23,-42.87,Lidl,Groceries,Brussels,BE
+T0063,TOM,2026-05-24,-24.26,Takeaway,Other,Brussels,BE
+T0064,TOM,2026-05-25,-18.1,Colruyt,Groceries,Brussels,BE
+T0003,TOM,2026-05-28,3000.0,Employer BV,Income,Brussels,BE
+T0065,TOM,2026-06-01,-72.09,Delhaize,Groceries,Brussels,BE
+T0016,TOM,2026-06-02,-1050.0,Brussels Rent,Housing,Brussels,BE
+T0093,TOM,2026-06-03,-850.0,Brussels Airlines,Travel,Brussels,BE
+T0066,TOM,2026-06-06,-59.03,Delhaize,Groceries,Brussels,BE
+T0067,TOM,2026-06-08,-57.74,Colruyt,Groceries,Brussels,BE
+T0094,TOM,2026-06-08,-620.0,Booking.com,Travel,Brussels,BE
+T0068,TOM,2026-06-11,-41.97,Carrefour,Groceries,Brussels,BE
+T0017,TOM,2026-06-12,-74.0,ENGIE Brussels,Utilities,Brussels,BE
+T0069,TOM,2026-06-13,-53.08,Carrefour,Groceries,Brussels,BE
+T0018,TOM,2026-06-15,-45.0,Proximus,Utilities,Brussels,BE
+T0070,TOM,2026-06-15,-29.98,Lidl,Groceries,Brussels,BE
+T0095,TOM,2026-06-19,-120.0,Travel Insurance,Travel,Brussels,BE
+T0071,TOM,2026-06-20,-43.2,Colruyt,Groceries,Brussels,BE
+T0072,TOM,2026-06-26,-31.28,Cinema,Other,Brussels,BE
+T0073,TOM,2026-06-27,-23.32,Lidl,Groceries,Brussels,BE
+T0004,TOM,2026-06-28,3000.0,Employer BV,Income,Brussels,BE
+T0074,TOM,2026-06-29,-26.4,Carrefour,Groceries,Brussels,BE
+T0019,TOM,2026-07-02,-1050.0,Brussels Rent,Housing,Brussels,BE
+T0075,TOM,2026-07-02,-52.84,Colruyt,Groceries,Brussels,BE
+T0076,TOM,2026-07-04,-58.95,Carrefour,Groceries,Brussels,BE
+T0096,TOM,2026-07-05,-95.0,Samsonite,Travel,Brussels,BE
+T0077,TOM,2026-07-06,-68.88,Delhaize,Groceries,Brussels,BE
+T0020,TOM,2026-07-12,-74.0,ENGIE Brussels,Utilities,Brussels,BE
+T0097,TOM,2026-07-12,-25.0,Bol.com Travel Adapter,Travel,Brussels,BE
+T0078,TOM,2026-07-13,-20.86,Colruyt,Groceries,Brussels,BE
+T0021,TOM,2026-07-15,-45.0,Proximus,Utilities,Brussels,BE
+T0079,TOM,2026-07-16,-44.02,Delhaize,Groceries,Brussels,BE
+T0080,TOM,2026-07-18,-72.15,Lidl,Groceries,Brussels,BE
+T0098,TOM,2026-07-20,-38.0,JR Pass,Travel,Brussels,BE
+T0081,TOM,2026-07-23,-69.14,Colruyt,Groceries,Brussels,BE
+T0082,TOM,2026-07-25,-60.85,Lidl,Groceries,Brussels,BE
+T0005,TOM,2026-07-28,3000.0,Employer BV,Income,Brussels,BE
+T0083,TOM,2026-07-30,-33.65,Carrefour,Groceries,Brussels,BE
+T0084,TOM,2026-07-31,-27.59,Spotify,Other,Brussels,BE
+T0085,TOM,2026-08-01,-25.89,Delhaize,Groceries,Brussels,BE
+T0022,TOM,2026-08-02,-1050.0,Brussels Rent,Housing,Brussels,BE
+T0099,TOM,2026-08-02,-300.0,KBC FX EUR-JPY,Foreign Spend,Brussels,BE
+T0086,TOM,2026-08-06,-36.86,Colruyt,Groceries,Brussels,BE
+T0087,TOM,2026-08-08,-40.2,Colruyt,Groceries,Brussels,BE
+T0100,TOM,2026-08-09,-250.0,KBC FX EUR-JPY,Foreign Spend,Brussels,BE
+T0088,TOM,2026-08-10,-45.19,Colruyt,Groceries,Brussels,BE
+T0023,TOM,2026-08-12,-74.0,ENGIE Brussels,Utilities,Brussels,BE
+T0024,TOM,2026-08-15,-45.0,Proximus,Utilities,Brussels,BE
+T0089,TOM,2026-08-15,-48.68,Colruyt,Groceries,Brussels,BE
+T0101,TOM,2026-08-18,-79.0,eSIM Japan,Travel,Brussels,BE
+T0090,TOM,2026-08-20,-42.84,Lidl,Groceries,Brussels,BE
+T0091,TOM,2026-08-21,-60.17,Spotify,Other,Brussels,BE
+T0102,TOM,2026-08-24,-42.5,Tokyo Airport Transfer,Travel,Tokyo,JP
+T0006,TOM,2026-08-28,3000.0,Employer BV,Income,Brussels,BE
+T0092,TOM,2026-08-31,-25.73,Colruyt,Groceries,Brussels,BE

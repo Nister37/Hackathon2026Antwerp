@@ -1,0 +1,91 @@
+transaction_id,customer_id,date,amount,merchant,category,city,country
+M0027,MARIA,2026-03-01,-36.81,H&M,Other,Antwerp,BE
+M0007,MARIA,2026-03-02,-1150.0,Antwerp Rent,Housing,Antwerp,BE
+M0028,MARIA,2026-03-03,-75.12,Carrefour,Groceries,Antwerp,BE
+M0029,MARIA,2026-03-06,-40.43,Colruyt,Groceries,Antwerp,BE
+M0009,MARIA,2026-03-10,-49.0,Proximus,Utilities,Antwerp,BE
+M0030,MARIA,2026-03-10,-73.87,Carrefour,Groceries,Antwerp,BE
+M0008,MARIA,2026-03-11,-82.0,ENGIE Antwerp,Utilities,Antwerp,BE
+M0031,MARIA,2026-03-13,-40.07,Carrefour,Groceries,Antwerp,BE
+M0032,MARIA,2026-03-15,-13.51,Cinema,Other,Antwerp,BE
+M0033,MARIA,2026-03-20,-76.08,Delhaize,Groceries,Antwerp,BE
+M0034,MARIA,2026-03-24,-83.06,Albert Heijn,Groceries,Antwerp,BE
+M0035,MARIA,2026-03-27,-65.41,Albert Heijn,Groceries,Antwerp,BE
+M0001,MARIA,2026-03-28,4200.0,Employer NV,Income,Antwerp,BE
+M0036,MARIA,2026-03-29,-52.06,H&M,Other,Antwerp,BE
+M0010,MARIA,2026-04-02,-1150.0,Antwerp Rent,Housing,Antwerp,BE
+M0037,MARIA,2026-04-07,-36.39,Albert Heijn,Groceries,Antwerp,BE
+M0038,MARIA,2026-04-10,-74.13,Albert Heijn,Groceries,Antwerp,BE
+M0039,MARIA,2026-04-12,-38.45,H&M,Other,Antwerp,BE
+M0012,MARIA,2026-04-13,-49.0,Proximus,Utilities,Antwerp,BE
+M0011,MARIA,2026-04-14,-82.0,ENGIE Antwerp,Utilities,Antwerp,BE
+M0040,MARIA,2026-04-14,-51.56,Colruyt,Groceries,Antwerp,BE
+M0041,MARIA,2026-04-21,-41.03,Delhaize,Groceries,Antwerp,BE
+M0042,MARIA,2026-04-24,-53.08,Albert Heijn,Groceries,Antwerp,BE
+M0043,MARIA,2026-04-25,-57.95,Cafe Central,Other,Antwerp,BE
+M0044,MARIA,2026-04-26,-30.55,Cinema,Other,Antwerp,BE
+M0002,MARIA,2026-04-28,4200.0,Employer NV,Income,Antwerp,BE
+M0045,MARIA,2026-05-01,-34.77,Albert Heijn,Groceries,Antwerp,BE
+M0013,MARIA,2026-05-02,-1150.0,Antwerp Rent,Housing,Antwerp,BE
+M0046,MARIA,2026-05-05,-87.85,Colruyt,Groceries,Antwerp,BE
+M0047,MARIA,2026-05-08,-94.81,Carrefour,Groceries,Antwerp,BE
+M0048,MARIA,2026-05-09,-13.18,Cinema,Other,Antwerp,BE
+M0049,MARIA,2026-05-10,-16.71,Panos,Other,Antwerp,BE
+M0015,MARIA,2026-05-12,-49.0,Proximus,Utilities,Antwerp,BE
+M0050,MARIA,2026-05-12,-66.75,Colruyt,Groceries,Antwerp,BE
+M0014,MARIA,2026-05-13,-82.0,ENGIE Antwerp,Utilities,Antwerp,BE
+M0051,MARIA,2026-05-15,-62.04,Colruyt,Groceries,Antwerp,BE
+M0052,MARIA,2026-05-19,-72.72,Delhaize,Groceries,Antwerp,BE
+M0053,MARIA,2026-05-22,-78.8,Albert Heijn,Groceries,Antwerp,BE
+M0054,MARIA,2026-05-24,-33.86,H&M,Other,Antwerp,BE
+M0003,MARIA,2026-05-28,4200.0,Employer NV,Income,Antwerp,BE
+M0055,MARIA,2026-05-30,-51.43,Cafe Central,Other,Antwerp,BE
+M0016,MARIA,2026-06-02,-1150.0,Antwerp Rent,Housing,Antwerp,BE
+M0056,MARIA,2026-06-02,-83.92,Albert Heijn,Groceries,Antwerp,BE
+M0057,MARIA,2026-06-05,-35.7,Carrefour,Groceries,Antwerp,BE
+M0058,MARIA,2026-06-09,-66.93,Delhaize,Groceries,Antwerp,BE
+M0019,MARIA,2026-06-11,-96.0,ENGIE Ghent,Utilities,Ghent,BE
+M0017,MARIA,2026-06-12,-1850.0,Notary Van Acker,Housing,Ghent,BE
+M0059,MARIA,2026-06-12,-90.04,Delhaize,Groceries,Antwerp,BE
+M0060,MARIA,2026-06-16,-41.86,Delhaize,Groceries,Ghent,BE
+M0018,MARIA,2026-06-18,-620.0,MoveEasy,Housing,Ghent,BE
+M0020,MARIA,2026-06-18,-49.0,Proximus,Utilities,Ghent,BE
+M0061,MARIA,2026-06-19,-31.0,Delhaize,Groceries,Ghent,BE
+M0081,MARIA,2026-06-20,-489.5,IKEA,Home,Ghent,BE
+M0062,MARIA,2026-06-21,-51.65,Cafe Central,Other,Ghent,BE
+M0063,MARIA,2026-06-23,-91.28,Colruyt,Groceries,Ghent,BE
+M0082,MARIA,2026-06-23,-212.3,Brico,Home,Ghent,BE
+M0064,MARIA,2026-06-26,-92.51,Colruyt,Groceries,Ghent,BE
+M0004,MARIA,2026-06-28,4200.0,Employer NV,Income,Ghent,BE
+M0083,MARIA,2026-06-28,-145.0,Gamma,Home,Ghent,BE
+M0065,MARIA,2026-06-30,-52.93,Albert Heijn,Groceries,Ghent,BE
+M0021,MARIA,2026-07-03,-980.0,Mortgage Payment,Housing,Ghent,BE
+M0066,MARIA,2026-07-03,-55.67,Albert Heijn,Groceries,Ghent,BE
+M0084,MARIA,2026-07-04,-629.99,IKEA,Home,Ghent,BE
+M0067,MARIA,2026-07-05,-11.65,H&M,Other,Ghent,BE
+M0068,MARIA,2026-07-07,-66.19,Carrefour,Groceries,Ghent,BE
+M0085,MARIA,2026-07-09,-96.4,Brico,Home,Ghent,BE
+M0069,MARIA,2026-07-10,-41.03,Delhaize,Groceries,Ghent,BE
+M0022,MARIA,2026-07-11,-96.0,ENGIE Ghent,Utilities,Ghent,BE
+M0070,MARIA,2026-07-14,-44.49,Carrefour,Groceries,Ghent,BE
+M0023,MARIA,2026-07-16,-49.0,Proximus,Utilities,Ghent,BE
+M0071,MARIA,2026-07-17,-75.63,Carrefour,Groceries,Ghent,BE
+M0086,MARIA,2026-07-17,-184.75,Gamma,Home,Ghent,BE
+M0072,MARIA,2026-07-21,-81.52,Colruyt,Groceries,Ghent,BE
+M0073,MARIA,2026-07-24,-71.13,Delhaize,Groceries,Ghent,BE
+M0087,MARIA,2026-07-26,-349.0,JYSK,Home,Ghent,BE
+M0005,MARIA,2026-07-28,4200.0,Employer NV,Income,Ghent,BE
+M0074,MARIA,2026-07-31,-29.24,Delhaize,Groceries,Ghent,BE
+M0088,MARIA,2026-08-02,-124.5,Brico,Home,Ghent,BE
+M0024,MARIA,2026-08-03,-980.0,Mortgage Payment,Housing,Ghent,BE
+M0075,MARIA,2026-08-04,-38.31,Carrefour,Groceries,Ghent,BE
+M0076,MARIA,2026-08-07,-37.84,Colruyt,Groceries,Ghent,BE
+M0025,MARIA,2026-08-10,-96.0,ENGIE Ghent,Utilities,Ghent,BE
+M0026,MARIA,2026-08-10,-49.0,Proximus,Utilities,Ghent,BE
+M0077,MARIA,2026-08-11,-28.54,Delhaize,Groceries,Ghent,BE
+M0089,MARIA,2026-08-11,-276.8,IKEA,Home,Ghent,BE
+M0090,MARIA,2026-08-19,-89.95,Gamma,Home,Ghent,BE
+M0078,MARIA,2026-08-22,-35.44,Cinema,Other,Ghent,BE
+M0006,MARIA,2026-08-28,4200.0,Employer NV,Income,Ghent,BE
+M0079,MARIA,2026-08-28,-93.97,Delhaize,Groceries,Ghent,BE
+M0080,MARIA,2026-08-29,-24.26,Cinema,Other,Ghent,BE

@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:18.1-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: hackathon2026
+      POSTGRES_USER: student
+      POSTGRES_PASSWORD: Student_1234
+    ports:
+      - "9432:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+volumes:
+  db-data:
+
